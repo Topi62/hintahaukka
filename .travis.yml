@@ -1,6 +1,6 @@
 language: android
+dist: trusty
 jdk: oraclejdk8
-sudo: required
 
 android:
   components:
@@ -33,6 +33,4 @@ before_script:
   - adb shell input keyevent 82 &
 
 script: ./gradlew clean build
-
-script: ./gradlew connectedAndroidTest
 
