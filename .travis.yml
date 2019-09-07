@@ -18,7 +18,7 @@ matrix:
     - env: SYS=14 ABI="default;armeabi-v7a"
 
 language: android
-jdk: oraclejdk8
+jdk: oraclejdk9
 
 before_install:
   - |
