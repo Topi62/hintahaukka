@@ -1,4 +1,7 @@
 language: android
+jdk: oraclejdk8
+sudo: required
+
 android:
   components:
     - build-tools-19.0.3
